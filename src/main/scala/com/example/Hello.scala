@@ -1,4 +1,4 @@
-package com.example
+package sample.hello
 
 object Hello {
   def main(args: Array[String]): Unit = {
