@@ -10,3 +10,4 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.4" % "test"
 // Uncomment to use Akka
 //libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.3.11"
 
+publishTo := Some(Resolver.file("hello",file("sbt-sample"))(Patterns(true, Resolver.mavenStyleBasePattern)))
